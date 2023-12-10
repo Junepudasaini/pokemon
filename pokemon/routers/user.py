@@ -1,10 +1,9 @@
-from fastapi import APIRouter, Depends, status, HTTPException
+from fastapi import APIRouter, status
 from crud import CRUD
 from database import session
 from models import User
 from schemas import UserModel
 from hashing import Hash
-import oauth2
 
 router = APIRouter(
     tags=['User']
