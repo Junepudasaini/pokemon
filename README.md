@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ## Pokemon
+=======
+## pokemon
+>>>>>>> e1c9a0764f8d1ce08b3dae71ec222d2fc788be76
 ### Go and summon your favourite pokemon using FastApi
 
 How to run the code?
@@ -8,9 +12,12 @@ How to run the code?
 3. Go to the directory where create_db is and run this file by ***py create_db.py*** to create database table .
 4. Finally run your server with ***uvicorn main:app --reload*** .
 
+<<<<<<< HEAD
 After running the code?
 -------------------
 1. Create a user .
 2. Click on Authorize to login and provide your username(Here: Provide your email) and password .
 3. Under Authentication you can check your authorization by providing your username(Here: Provide your email) and        password .
 4. After login you can access all Pokemons .
+=======
+>>>>>>> e1c9a0764f8d1ce08b3dae71ec222d2fc788be76
